@@ -5,7 +5,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Screenshot](#screenshot)
-- [Links](#links)
+- [Link](#link)
 - [Built with](#built-with)
 - [Project Takeaways](#project-takeaways)
 
@@ -13,7 +13,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![](./screenshot.png)
 
-Solution URL: [Add solution URL here](https://your-solution-url.com)
+### Link
+
+Solution URL: [Click Here](https://matejgroombridge.github.io/Order-Summary-Component/)
 
 ### Built with
 
