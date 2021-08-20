@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  top: 120vh;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  width: 100vw;
+  height: 120vh;
+  background: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.background {
+  top: 0;
+  position: fixed;
+}
+
+.card {
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  -ms-grid-columns: 450px;
+      grid-template-columns: 450px;
+  -ms-grid-rows: 220px 250px 180px;
+      grid-template-rows: 220px 250px 180px;
+      grid-template-areas: "image" "text" "button";
+  border-radius: 1em;
+  background: white;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #7280a7;
+  background: url(./images/illustration-hero.svg) white;
+  background-repeat: no-repeat;
+  row-gap: 1em;
+}
+
+.card-image {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: image;
+}
+
+.card-text {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: text;
+}
+
+.card-text p {
+  padding: 0 2em;
+}
+
+.card-text .card-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f5f7ff;
+  margin: 3em;
+  margin-top: 1em;
+  border-radius: 0.75em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+}
+
+.card-text .card-plan .plan-icon {
+  margin-left: 0.75em;
+}
+
+.card-text .card-plan .plan-text {
+  margin-right: 2em;
+}
+
+.card-text .card-plan .plan-text h2 {
+  font-size: 1em;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.card-text .card-plan .plan-text p {
+  margin-top: 0;
+}
+
+.card-buttons {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: button;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 0 3em;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-buttons .card-payment {
+  background: #3829e0;
+  border-radius: 0.75em;
+  -webkit-box-shadow: 2px 2px 20px rgba(56, 41, 224, 0.4);
+          box-shadow: 2px 2px 20px rgba(56, 41, 224, 0.4);
+}
+
+.card-buttons .card-payment a {
+  text-decoration: none;
+}
+
+.card-buttons .card-payment a h3 {
+  font-size: 1em;
+  color: white;
+  font-weight: 700;
+}
+
+.card-buttons .card-cancel {
+  padding-top: 0.5em;
+}
+
+.card-buttons .card-cancel a {
+  color: grey;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
